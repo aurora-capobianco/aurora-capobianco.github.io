@@ -24,10 +24,10 @@ body, html {
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
+    width: 250px;
+    height: 250px;
+    /*border-radius: 50%;
+    border: 5px solid white;*/
 }
 
 nav {
