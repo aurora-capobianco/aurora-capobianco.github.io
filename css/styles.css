@@ -26,7 +26,7 @@ body, html {
 .profile-image {
     width: 350px;
     height: 350px;
-    border-radius: 100%;
+    border-radius: 200%;
     /*border: 5px solid white;*/
 }
 
