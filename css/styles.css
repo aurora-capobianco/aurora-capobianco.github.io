@@ -150,6 +150,12 @@ main {
     border: 2px solid white;
 }
 
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .contact-links {
     width: 100%; 
     padding-top: 20px; 
