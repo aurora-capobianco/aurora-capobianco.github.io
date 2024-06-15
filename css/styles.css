@@ -150,17 +150,7 @@ main {
     border: 2px solid white;
 }
 
-a:hover {
-  color: blue;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
 .contact-links {
     width: 100%; 
@@ -185,6 +175,17 @@ a:link {
     height: auto;
 }
 
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 footer {
     background-color: #333;
