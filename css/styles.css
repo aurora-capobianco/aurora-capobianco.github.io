@@ -195,3 +195,19 @@ footer {
     position: absolute;
     width: 100%;
 }
+
+.sp_container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 2px;
+}
+
+.sp_image {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.sp_text {
+  font-size: 20px;
+}
