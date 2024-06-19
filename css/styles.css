@@ -211,3 +211,8 @@ footer {
 .sp_text {
   font-size: 20px;
 }
+
+.reading-time {
+    color: #b5c8e8;
+    font-size: 12px;
+}
