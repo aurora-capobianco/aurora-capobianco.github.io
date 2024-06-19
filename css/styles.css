@@ -217,8 +217,8 @@ footer {
     font-size: 14px;
 }
 .shadow-container {
-  width: 30vw;
-  height: 30vh;
+  width: 10vw;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
