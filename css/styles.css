@@ -207,14 +207,14 @@ footer {
  display: grid;
  align-items: center; 
  grid-template-columns: 1fr 2fr;
- column-gap: 75px;
+ column-gap: 30px;
 }
 
 .sp_image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 20px;
   height: auto;
   /*object-fit: cover;*/
 }
