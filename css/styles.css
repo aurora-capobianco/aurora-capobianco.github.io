@@ -244,10 +244,8 @@ footer {
 }
 
 .sp_image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 2px;
+  position: relative;
+  width: 10px;
   height: auto;
   /*object-fit: cover;*/
 }
@@ -295,6 +293,9 @@ footer {
 /* Position the image container (needed to position the left and right arrows) */
 .slider_container {
   position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-color: #4B0082;
 }
 
 /* Hide the images by default */
