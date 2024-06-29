@@ -214,9 +214,9 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20px;
+  width: 2px;
   height: auto;
-  object-fit: cover;
+  /*object-fit: cover;*/
 }
 
 .sp_text {
