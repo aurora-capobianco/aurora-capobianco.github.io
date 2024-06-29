@@ -22,6 +22,10 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.logo {
+    width: 50%;
+    height: auto;
+}
 
 .profile-image {
     width: 350px;
