@@ -239,8 +239,8 @@ footer {
 .sp_container {
  display: grid;
  align-items: center; 
- grid-template-columns: 1fr 2fr;
- column-gap: 30px;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 10px;
 }
 
 .sp_image {
