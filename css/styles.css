@@ -239,13 +239,13 @@ footer {
 .sp_container {
  display: grid;
  align-items: center; 
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 2fr 1fr;
  column-gap: 10px;
 }
 
 .sp_image {
-  width: 20px;
-  height: 20px;
+  width: 30%;
+  height: auto;
   object-fit: contain;
 }
 
