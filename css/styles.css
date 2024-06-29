@@ -190,7 +190,20 @@ main {
     border: 2px solid white;
 }
 
+.intro_container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 2fr;
+ column-gap: 10px;
+}
 
+.left {
+  
+}
+
+.right {
+    
+}
 
 .contact-links {
     width: 100%; 
