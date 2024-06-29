@@ -198,11 +198,11 @@ main {
 }
 
 .left {
-  
+  float: left;
 }
 
 .right {
-    
+  float: right;
 }
 
 .contact-links {
