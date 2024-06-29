@@ -200,7 +200,7 @@ footer {
  display: grid;
  align-items: center; 
  grid-template-columns: 1fr 2fr;
- column-gap: 2px;
+ column-gap: 20px;
 }
 
 .sp_image {
