@@ -51,7 +51,7 @@ body, html {
 
 .profile-info {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -59,7 +59,7 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 40%;
     height: auto;
 }
 
