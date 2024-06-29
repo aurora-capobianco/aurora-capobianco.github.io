@@ -204,9 +204,9 @@ footer {
 }
 
 .sp_image {
-  width: 100px;
-  height: 10px;
-  object-fit: contain;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
 }
 
 .sp_text {
