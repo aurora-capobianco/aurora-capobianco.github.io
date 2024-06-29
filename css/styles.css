@@ -240,13 +240,13 @@ footer {
  display: grid;
  align-items: center; 
  grid-template-columns: 2fr 1fr;
- column-gap: 10px;
+ column-gap: 1px;
 }
 
 .sp_image {
-  width: 30%;
-  height: auto;
-  object-fit: contain;
+  width: 10px;
+  height: 10px;
+  */object-fit: contain;*/
 }
 
 .sp_text {
