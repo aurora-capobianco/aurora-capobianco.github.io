@@ -244,14 +244,15 @@ footer {
 }
 
 .sp_image {
-  position: relative;
-  width: 10px;
+  float: right;
+  width: 30%;
   height: auto;
   /*object-fit: cover;*/
 }
 
 .sp_text {
-  font-size: 16px;
+    float: left;
+    font-size: 16px;
 }
 
 .reading-time {
