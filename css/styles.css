@@ -139,7 +139,7 @@ main {
 .profile-image {
     width: 150px; /* Adjusted size for better visual balance */
     height: 150px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 20px;
     object-fit: cover; /* Ensures the image fits nicely within the circular frame */
 }
@@ -193,7 +193,7 @@ main {
 .intro_container {
  display: grid;
  align-items: center; 
- grid-template-columns: 1fr 2fr;
+ grid-template-columns: 1fr 1fr;
  column-gap: 2px;
 }
 
@@ -203,7 +203,7 @@ main {
 }
 
 .right {
-  /*float: left;*/
+  float: right;
   width: 65%;
 }
 
