@@ -292,8 +292,8 @@ footer {
 /* Position the image container (needed to position the left and right arrows) */
 .slider_container {
   position: relative;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   border-style: solid;
   border-color: #4B0082;
 }
