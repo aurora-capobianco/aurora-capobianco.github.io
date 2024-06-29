@@ -199,12 +199,12 @@ main {
 
 .left {
   /*float: left;*/
-  width: 35%;
+  /*width: 35%;*/
 }
 
 .right {
   float: right;
-  width: 65%;
+  /*width: 65%;*/
 }
 
 .contact-links {
