@@ -194,17 +194,17 @@ main {
  display: grid;
  align-items: center; 
  grid-template-columns: 1fr 2fr;
- column-gap: 10px;
+ column-gap: 2px;
 }
 
 .left {
-  float: left;
-  width: 25%;
+  /*float: left;*/
+  width: 35%;
 }
 
 .right {
-  float: left;
-  width: 75%;
+  /*float: left;*/
+  width: 65%;
 }
 
 .contact-links {
