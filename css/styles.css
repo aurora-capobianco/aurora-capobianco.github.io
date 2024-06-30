@@ -233,6 +233,7 @@ main {
 }
 .nowrap {
   white-space: nowrap ;
+  overflow: hidden;
 }
 
 a:hover {
