@@ -127,6 +127,7 @@ main {
     height: 150px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-left: 20px;
     object-fit: cover; /* Ensures the image fits nicely within the circular frame */
 }
 
@@ -210,6 +211,7 @@ main {
 .contact-links {
     width: 100%; 
     padding-top: 10px; 
+    margin-left: 20px;
 }
 
 .contact-links p {
