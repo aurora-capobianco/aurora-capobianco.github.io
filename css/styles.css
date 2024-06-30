@@ -231,6 +231,9 @@ main {
     width: 24px;
     height: auto;
 }
+.nowrap {
+  white-space: nowrap ;
+}
 
 a:hover {
   color: blue;
