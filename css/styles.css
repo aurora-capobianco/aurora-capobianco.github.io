@@ -249,7 +249,8 @@ a:link {
 }
 
 footer {
-    background-color: #333;
+    /*background-color: #333;*/
+    background-image: url('images/background-stars.JPG');
     color: white;
     text-align: center;
     padding: 20px 0;
