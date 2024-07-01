@@ -438,8 +438,9 @@ footer {
 // Blog header
 //-------------------------
 .blog-cover {
-  background: url("background_stars.JPG");
-  background-size: cover;
+  /*background: url("background_stars.JPG");*/
+  /*background-size: cover;*/
+  object-fit: cover;
   border-radius: 5px 5px 0 0;
   height: 15rem;
   box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
@@ -465,11 +466,11 @@ footer {
 }
 .blog-author h3 {
   color: #fff;
-  /*font-weight: 100;*/
+  font-weight: 100;
 }
 .blog-author--no-cover h3 {
   color: lighten(#333, 40%);
-  /*font-weight: 100;*/
+  font-weight: 100;
 }
 
 // Blog body
