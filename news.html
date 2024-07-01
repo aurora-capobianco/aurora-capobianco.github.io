@@ -100,7 +100,24 @@
               <li class="published-date">2 days ago</li>
               <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
               <!--<li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">1</span></a></li>-->
-              <li class="likes"><a href="#"><img src="images/like.svg" class="icon-like"><span class="numero">1</span></a></li>
+              <!--<li class="likes"><a href="#"><img src="images/like.svg" class="icon-like"><span class="numero">1</span></a></li>-->
+              <!-- <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> -->
+                
+              <li class="likes"><button id="like-button">Like</button><span class="numero" id="like-count">0</span></li>
+
+             
+                <script>
+                  // JavaScript
+                  const likeButton = document.getElementById('like-button');
+                  const likeCountElement = document.getElementById('like-count');
+                  let likeCount = 0;
+                
+                  // Listen for clicks on the like button and increment the like count
+                  likeButton.addEventListener('click', () => {
+                    likeCount++;
+                    likeCountElement.innerText = likeCount;
+                  });
+                </script>
             </ul>
           </div>
         
