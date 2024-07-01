@@ -569,10 +569,10 @@ footer {
 .icon-like,
 .icon-bubble {
   fill: lighten(#333, 5%);
-  height:5%;
+  max-height:5%;
   margin-right: .5rem;
   transition: .25s ease;
-  width: 5%;
+  width: auto;
   &:hover {
     fill: #ff4d4d;
   }
