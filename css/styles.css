@@ -587,11 +587,11 @@ footer {
 }
 
 .like__btn {
-  padding: 10px 15px;
+  padding: 10px 25px 20px;
   background: #57a9fa;
   font-size: 14px;
   font-family: Times New Roman, serif;
-  border-radius: 3px;
+  border-radius: 6px;
   color: #e8efff;
   outline: none;
   border: none;
