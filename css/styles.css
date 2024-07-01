@@ -438,7 +438,7 @@ footer {
 // Blog header
 //-------------------------
 .blog-cover {
-  background: url("background_stars.JPG");
+  background: url("me.jpg");
   background-size: cover;
   border-radius: 5px 5px 0 0;
   height: 15rem;
