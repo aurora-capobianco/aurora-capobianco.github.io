@@ -567,11 +567,11 @@ footer {
 .icon-star,
 .icon-like,
 .icon-bubble {
-  fill: lighten(#333, 40%);
-  height:2px;
+  fill: lighten(#333, 5%);
+  height:5%;
   margin-right: .5rem;
   transition: .25s ease;
-  width: 2px;
+  width: 5%;
   &:hover {
     fill: #ff4d4d;
   }
