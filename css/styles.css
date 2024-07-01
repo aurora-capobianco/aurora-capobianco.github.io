@@ -421,7 +421,7 @@ footer {
   box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
   font-family: Times New Roman, serif;
   /*font-weight: 100;*/
-  margin: 48px auto;
+  margin: 20px auto;
   width: 20rem;
   @media screen and (min-width: 480px) {
     width: 28rem;
@@ -455,7 +455,7 @@ footer {
 }
 .blog-author,
 .blog-author--no-cover {
-  margin: 0 auto;
+  margin: 10px;
   padding-top: .125rem;
   width: 80%;
 }
@@ -528,7 +528,7 @@ footer {
 .blog-footer {
   border-top: 1px solid lighten(#333, 70%);
   margin: 0 auto;
-  padding-bottom: .125rem;
+  padding-bottom: .25rem;
   width: 80%;
 }
 .blog-footer ul {
