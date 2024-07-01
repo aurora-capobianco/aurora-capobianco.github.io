@@ -565,6 +565,7 @@ footer {
 // Icons
 //-------------------------
 .icon-star,
+.icon-like,
 .icon-bubble {
   fill: lighten(#333, 40%);
   height:2px;
