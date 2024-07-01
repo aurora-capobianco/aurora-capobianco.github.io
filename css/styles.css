@@ -473,7 +473,7 @@ footer {
   width: 32px;
 }
 .blog-author h3 {
-  color: #fff;
+  color: lighten(#333, 40%);
   font-weight: 100;
 }
 .blog-author--no-cover h3 {
