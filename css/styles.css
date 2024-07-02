@@ -265,15 +265,10 @@ footer {
     padding: 20px 0;
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.copyright {
-    text-align: right;
-}
-
-.update {
-    text-align: left;
-}
 
 .sp_container {
  display: grid;
