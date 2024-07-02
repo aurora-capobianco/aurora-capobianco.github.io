@@ -259,11 +259,20 @@ a:link {
 footer {
     background-color: #fff;
     background-image: url("background_stars.JPG");
-    color: white;
+    color: #76849e;
+    font-size: 16px;
     text-align: center;
     padding: 20px 0;
     position: absolute;
     width: 100%;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.update {
+    text-align: left;
 }
 
 .sp_container {
