@@ -612,7 +612,7 @@ footer {
 	-khtml-border-radius: 4px;
 	height: 300px;
 	margin: 24px auto;
-	overflow: scroll;
+	overflow: hidden;
 	position: relative;
 	width: 400px;
 }
@@ -633,16 +633,16 @@ footer {
 }
 
 .rs-slideshow .slide-container .slide-caption {
-	background-color: #0066b2;
+	background-color: #000;
 	bottom: 0;
 	color: #fff;
 	display: block;
 	left: 0;
-	padding: 0px 12px;
+	padding: 6px 12px;
 	position: absolute;
 	text-align: center;
 	right: 0;
-	filter: alpha(opacity=70); /* internet explorer */
+	filter: alpha(opacity=80); /* internet explorer */
 	-khtml-opacity: 0.7;      /* khtml, old safari */
 	-moz-opacity: 0.7;       /* mozilla, netscape */
 	opacity: 0.7;           /* fx, safari, opera */
@@ -695,11 +695,11 @@ footer {
 	width: 620px;
 }
 .rs-play-pause, .rs-prev, .rs-next {
-	float: center;
+	float: left;
 	margin-right: 12px;
 }
 .rs-controls ul {
-	float: center;
+	float: left;
 	list-style: none;
 	margin: 0 6px 0 0;
 	padding: 0;
@@ -709,7 +709,7 @@ footer {
 	margin-right: 6px;
 }
 .rs-controls a {
-	background-color: #0066b2;
+	background-color: #fff;
 	border: 1px solid #ddd;
 	/*border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -717,7 +717,7 @@ footer {
 	-khtml-border-radius: 3px;*/
 	color: #444;
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Times New Roman, serif;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 3px 5px;
