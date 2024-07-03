@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Times New Roman, serif;
+    background-color: #F7BF81;
 }
 
 .banner {
@@ -723,7 +724,11 @@ footer {
 	top: 0;
 	width: 28%;
 }
-.slide_img {}
+.slide_img {
+	max-width: 400px;
+    	max-height: 300px;
+    	object-fit: contain;
+}
 .slide_front {}
 
 
