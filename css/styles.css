@@ -575,32 +575,7 @@ footer {
   top: -0.5rem;
 }
 
-// Icons
-//-------------------------
-.icon-star,
-.icon-like,
-.icon-bubble {
-  fill: lighten(#333, 5%);
-  max-height:5%;
-  margin-right: .5rem;
-  transition: .25s ease;
-  width: auto;
-  &:hover {
-    fill: #ff4d4d;
-  }
-}
 
-.like__btn {
-  padding: 10px 25px 20px;
-  background: #57a9fa;
-  font-size: 14px;
-  font-family: Times New Roman, serif;
-  border-radius: 6px;
-  color: #e8efff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
 
 
 /* SLIDESHOW */
@@ -618,7 +593,7 @@ footer {
 }
 
 .rs-slideshow .slide-container {
-	background-color: #0066b2;
+	background-color: #fff;
 	position: absolute;
 	height: 100%;
 	left: 0;
@@ -748,7 +723,8 @@ footer {
 	top: 0;
 	width: 28%;
 }
-
+.slide_img {}
+.slide_front {}
 
 
 /*	Clearfix	*/
