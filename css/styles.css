@@ -476,6 +476,7 @@ footer {
     height: 300px;
     width: auto;
     align-items: center;
+    overflow: hidden;
 }
 
 /* Next & previous buttons */
