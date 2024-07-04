@@ -469,6 +469,11 @@ footer {
   display: none;
 }
 
+.slide_img {
+    height: 100%;
+    width: auto;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
