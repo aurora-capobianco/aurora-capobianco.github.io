@@ -462,6 +462,7 @@ footer {
   width: 60%;
   position: relative;
   margin: auto;
+  border: 2px solid black;
 }
 
 /* Hide the images by default */
