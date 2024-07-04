@@ -281,9 +281,9 @@ footer {
 }
 
 .sp_image {
-  max-width: 10%;
+  width: 100%;
   height: auto;
-  object-fit: contain;
+  /*object-fit: contain;*/
 }
 
 .sp_text {
