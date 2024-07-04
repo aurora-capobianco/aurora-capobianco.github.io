@@ -531,8 +531,8 @@ footer {
   height: 20px;
   text-align: center;
   /*background-color: #222;*/
-  background: rgba(0,0,0,0.6); //
-  padding: 15px 15px;
+  background: rgba(0,0,0,0.8); //
+  padding: 2px 16px;
 }
 
 
