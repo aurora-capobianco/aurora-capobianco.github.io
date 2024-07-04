@@ -90,7 +90,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 nav ul li {
@@ -470,8 +470,9 @@ footer {
 }
 
 .slide_img {
-    height: 200px;
+    height: 300px;
     width: auto;
+    align-items: center;
 }
 
 /* Next & previous buttons */
