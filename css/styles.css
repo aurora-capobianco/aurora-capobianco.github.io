@@ -459,7 +459,7 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   width: 60%;
-  height: 40%;
+  height: 400px;
   position: relative;
   margin: auto;
 }
