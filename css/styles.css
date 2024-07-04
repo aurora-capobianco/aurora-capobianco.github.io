@@ -82,6 +82,7 @@ hr {
 nav {
     background-color: #ffefdb; 
     padding: 10px 0;
+    max-width: 800px; 
 }
 
 nav ul {
