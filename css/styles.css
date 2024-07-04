@@ -83,7 +83,8 @@ nav {
     background-color: #ffefdb; 
     padding: 10px 0;
     max-width: 800px; 
-    position: absolute;
+    position: relative;
+    align-items: center;
 }
 
 nav ul {
