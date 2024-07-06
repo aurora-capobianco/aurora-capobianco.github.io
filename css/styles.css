@@ -90,8 +90,8 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: block;
+    margin-left: 400;
+    display: flex;
     justify-content: center;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
@@ -468,6 +468,7 @@ footer {
   margin: auto;
   border: 2px solid black;
   align-items: center;
+  text-align: center;
 }
 
 /* Hide the images by default */
@@ -481,6 +482,7 @@ footer {
     align-items: center;
     overflow: hidden;
     margin: 10px 10px 10px 10px;
+    display: block;
 }
 
 /* Next & previous buttons */
