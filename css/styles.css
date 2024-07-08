@@ -82,7 +82,8 @@ hr {
 nav {
     background-color: #ffefdb; 
     padding: 10px 0;
-    /*max-width: 800px; */
+    max-width: 800px; 
+    padding-left: 400px;
     position: relative;
     align-items: center;
     margin-left: 400;
@@ -118,7 +119,7 @@ nav ul li a.active, nav ul li a:hover {
 main {
     max-width: 800px; 
     margin: 20px auto; 
-    padding: 20px;
+    padding-left: 20px;
     background-color: white; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 10px;
@@ -596,7 +597,7 @@ footer {
   height: 1.5rem;
   line-height: 1.5rem;
   letter-spacing: 1px;
-  padding: 200px;
+  padding-left: 200px;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -615,7 +616,7 @@ footer {
   display: flex;
   flex: row wrap;
   justify-content: flex-end;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 .event-footer li:first-child {
   margin-right: auto;
