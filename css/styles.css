@@ -222,6 +222,7 @@ main {
 .right {
   float: right;
   /*width: 65%;*/
+  margin-left: 20px;
 }
 
 .contact-links {
