@@ -68,7 +68,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
@@ -82,8 +82,8 @@ hr {
 nav {
     background-color: #ffefdb; 
     padding: 10px 0;
-    max-width: 1500px; 
-    padding-left: 300px;
+    /*max-width: 1500px; */
+    /*padding-left: 300px;*/
     position: relative;
     align-items: center;
     /*margin-left: 400;*/
@@ -92,7 +92,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    /*margin-left: 400;*/
+    margin-left: 400;
     display: flex;
     justify-content: center;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
