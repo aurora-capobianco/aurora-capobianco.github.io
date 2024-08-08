@@ -129,7 +129,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px;
+    padding: 0px;
 }
 
 .profile-and-timeline {
@@ -154,8 +154,8 @@ main {
 }
 
 .profile-image {
-    width: 175px; /* Adjusted size for better visual balance */
-    height: 175px;
+    width: 200px; /* Adjusted size for better visual balance */
+    height: 200px;
     border-radius: 100%;
     margin-right: 10px;
     object-fit: cover; /* Ensures the image fits nicely within the circular frame */
@@ -227,7 +227,7 @@ main {
 .contact-links {
     width: 100%; 
     padding-top: 10px; 
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .contact-links p {
