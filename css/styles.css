@@ -310,7 +310,7 @@ footer {
   box-shadow: hsla(0, 0, 0, .8) 0 4px 2px -2px;
   font-family: Times New Roman, serif;
   /*font-weight: 100;*/
-  margin: 20px auto;
+  margin: 5px auto;
   width: 20rem;
   @media screen and (min-width: 480px) {
     width: 28rem;
@@ -338,6 +338,7 @@ footer {
   /*background: url("background_stars.JPG");*/
   /*background-size: cover;*/
   /*object-fit: contain;*/
+  margin: 10px;
   max-width: 100px;
   height: auto;
   border-radius: 5px 5px 0 0;
