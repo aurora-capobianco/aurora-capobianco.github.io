@@ -338,7 +338,7 @@ footer {
   /*background: url("background_stars.JPG");*/
   /*background-size: cover;*/
   /*object-fit: contain;*/
-  width: 200px;
+  max-width: 100px;
   height: auto;
   border-radius: 5px 5px 0 0;
   height: 15rem;
