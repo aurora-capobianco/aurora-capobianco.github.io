@@ -307,7 +307,7 @@ footer {
 .blog-container {
   background: #fff;
   border-radius: 5px;
-  box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+  box-shadow: hsla(0, 0, 0, .8) 0 4px 2px -2px;
   font-family: Times New Roman, serif;
   /*font-weight: 100;*/
   margin: 20px auto;
@@ -347,7 +347,7 @@ footer {
 .blog-author,
 .blog-author--no-cover {
   margin: 10px;
-  padding-top: .125rem;
+  /*padding-top: .125rem;*/
   width: 80%;
 }
 .blog-author h3::before,
