@@ -180,12 +180,23 @@
           <hr>
         </div>
     </main>
-    
-    <footer>
-            <p> &emsp;Latest update: 14.08.2024 </p>
-            <p> Copyright © 2024 Aurora Capobianco&emsp;</p>
+        <footer>
+	    <div>
+		    <p>&nbsp Latest update: </p>
+		    <p id="demo"> </p>
+	    </div>
+            <div>
+		<p> Copyright © 2024 Aurora Capobianco</p>
+	    </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/jquery.rs.slideshow.js"></script>
+	<script src="js/html-captions-bootstrap.js"></script>
+	<script>
+		let text = document.lastModified;
+		document.getElementById("demo").innerHTML = text;
+	</script>
     <script type="text/javascript" src="//use.typekit.net/wtt0gtr.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </body>
