@@ -118,7 +118,7 @@ nav ul li a.active, nav ul li a:hover {
 
 main {
     max-width: 800px; 
-    margin: 20px auto; 
+    margin: 10px auto; 
     padding: 30px;
     background-color: white; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
