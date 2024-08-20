@@ -4,6 +4,14 @@ body, html {
     font-family: Times New Roman, serif;
     background-color: #ffefdb;
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 93px;    /* altezza del footer */
+}
 
 .banner {
     position: relative;
@@ -376,6 +384,7 @@ footer {
     height: 93px;
     display: flex;
     justify-content: space-between;
+    bottom: 0;
 }
 
 footer p{
