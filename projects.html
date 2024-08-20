@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aurora Capobianco - Astrophysicist</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -11,8 +12,11 @@
 <body>
     <header class="banner">
         <!--<img src="images/bg.jpg" alt="back" class="background-image">-->
-        <div class="fade-in-image">
+        <div class="fade-in-image d-none d-md-block">
             <img src="images/background_stars.JPG" alt="Stars" class="background-image">
+        </div>
+            <div class="fade-in-image d-block d-md-none">
+            <img src="images/background_stars.JPG" alt="Stars" class="background-image" style="height: 100px">
         </div>
         <div class="profile-info">
             <div class="fade-in-image">
@@ -20,8 +24,20 @@
             </div>
         </div>
     </header>
-    <nav>
-        <ul>
+<!--    <nav>-->
+<!--        <ul>-->
+<!--            <li><a href="index.html">Home</a></li>-->
+<!--            <li><a href="news.html">News</a></li>-->
+<!--            <li><a href="projects.html">Projects</a></li>-->
+<!--            <li><a href="talks.html">Talks</a></li>-->
+<!--            <li><a href="publications0.html">Publications</a></li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+    <nav class="navbar">
+        <div class="navbar-header d-block d-md-none">
+            <span class="navbar-toggle" id="js-navbar-toggle">&#9776;</span>
+        </div>
+        <ul class="main-nav" id="js-menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -29,8 +45,13 @@
             <li><a href="publications0.html">Publications</a></li>
         </ul>
     </nav>
+
+    <script>document.getElementById('js-navbar-toggle').addEventListener('click', function() {
+        var menu = document.getElementById('js-menu');
+        menu.classList.toggle('show');
+    });</script>
     
-    <main>
+    <main style="width: 100%">
         <section class="projects">
             <h2>Ongoing Projects</h2>
 	    <hr>
@@ -46,9 +67,14 @@
 				More details on the project and progress updates can be found on the <a href="https://merlin-neutronstars.bitbucket.io/about.html"> Merlin</a> website.
 			</p>
                     </div>
-                    <div class="sp_image">
-                        <img src="images/DFG_NCN_weave.png" alt="stockholm" style="width:350px; height:auto;">
+                    <div class="sp_image d-none d-md-block">
+                        <img src="images/DFG_NCN_weave.png" alt="stockholm" style="width:300px; height:auto;">
                     </div>
+
+            <p class="d-block d-md-none"></p>
+            <div class="sp_image d-block d-md-none">
+                <img src="images/DFG_NCN_weave.png" alt="stockholm" style="width:100%; height:auto;">
+            </div>
                 </div>
                 
             </article>
@@ -63,8 +89,12 @@
 				grains are applied via the post-processing code <a href="https://academic.oup.com/mnras/article/489/4/4465/5556949">PAPERBOATS</a>. The primary publications can be found <a href="https://arxiv.org/abs/2109.01175">here</a> and <a href="https://arxiv.org/abs/2402.06543">here</a>.
 			</p>
                     </div>
-                    <div class="sp_image">
+                    <div class="sp_image d-none d-md-block">
                         <img src="images/stockholm.jpg" alt="stockholm" style="width:400px; height:auto;">
+                    </div>
+                    <p class="d-block d-md-none"></p>
+                    <div class="sp_image d-block d-md-none">
+                        <img src="images/stockholm.jpg" alt="stockholm" style="width:100%; height:auto;">
                     </div>
                 </div>
 		
@@ -85,11 +115,19 @@
 				The magneto-hydrodynamic simulations are run with initial conditions emulating a realistic ISM 
 				and post-processing calculations include dust processing due to ion sputtering, accretion, and grain–grain collisions.</p>
                     </div>
-                    <div class="sp_image">
+                    <div class="sp_image d-none d-md-block">
                         <img src="images/nordita.png" style="width:300px; height:auto;">
                     </div>
+                    <p class="d-block d-md-none"></p>
+                    <div class="sp_image d-block d-md-none">
+                        <img src="images/nordita.png" style="width:100%; height:auto;">
+                    </div>
                 </div>
-		<embed src="docs/Master_Thesis_AC.pdf" width="720" height="350" type="application/pdf" style="margin: 20px; align-items=center">
+		<embed class="d-none d-md-block" src="docs/Master_Thesis_AC.pdf" width="720" height="350" type="application/pdf" style="margin: 20px; align-items=center">
+                <div class="d-md-none" style="margin: 20px; text-align: center;">
+                    <p>View the PDF:</p>
+                    <a href="docs/Master_Thesis_AC.pdf" class="btn btn-primary" style="background-color: blue">Download PDF</a>
+                </div>
             </article>
             
             
