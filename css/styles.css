@@ -286,7 +286,28 @@ footer {
 }
 
 footer p{
-    margin: 5px;
+    height: 24px;
+    min-width: 133.79px;
+}
+
+#l{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    height: 24px;
+    lenght: 133.79px;
+    margin-bottom: 20px;
+}
+
+#demo{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+}
+#r{
+    position: absolute;
+    top: 7px;
+    right: 30px;
 }
 
 
