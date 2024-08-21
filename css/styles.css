@@ -498,8 +498,8 @@ footer p{
   /*padding-top: .125rem;*/
   width: 80%;
 }
-.blog-author h3::before,
-.blog-author--no-cover h3::before {
+.blog-author h5::before,
+.blog-author--no-cover h5::before {
   background: url("me.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -511,11 +511,11 @@ footer p{
   top: 8px;
   width: 32px;
 }
-.blog-author h3 {
+.blog-author h5 {
   color: lighten(#333, 40%);
   font-weight: 100;
 }
-.blog-author--no-cover h3 {
+.blog-author--no-cover h5 {
   color: lighten(#333, 40%);
   font-weight: 100;
 }
@@ -530,7 +530,7 @@ footer p{
   height: 100%;
   width: 100%;
 }
-.blog-title h1 a {
+.blog-title h3 a {
   color: #333;
   /*font-weight: 100;*/
 }
