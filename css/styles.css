@@ -193,8 +193,8 @@ hr {
 }
 
 .main-nav li a:hover {
-    background-color: rgba(125, 68, 204, 0.21);
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: rgba(179, 124, 206, 0.19);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 /* Media Query per schermi piccoli */
