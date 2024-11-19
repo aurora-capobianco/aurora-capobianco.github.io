@@ -430,7 +430,9 @@ footer p{
 .figure {
   padding: 10px;
   margin: auto;
-  align-items: center; 
+  border: none;
+  position: absolute;
+  left: 50%;
 }
 
 .figcaption {
