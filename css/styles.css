@@ -427,15 +427,15 @@ footer p{
         left: -25px;
     }
 }
-.figure {
+.figures {
   padding: 10px;
   margin: auto;
   border: none;
   position: relative;
-  left: 50%;
+  left: 40%;
 }
 
-.figcaption {
+.figscaption {
   background-color: white;
   color: black;
   font-style: italic;
