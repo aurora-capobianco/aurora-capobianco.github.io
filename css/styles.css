@@ -428,9 +428,9 @@ footer p{
     }
 }
 .figure {
-  border: 1px #cccccc solid;
   padding: 10px;
   margin: auto;
+  align-items: center; 
 }
 
 .figcaption {
