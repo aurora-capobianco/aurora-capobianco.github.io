@@ -431,7 +431,7 @@ footer p{
   padding: 10px;
   margin: auto;
   border: none;
-  position: absolute;
+  position: relative;
   left: 50%;
 }
 
@@ -439,6 +439,7 @@ footer p{
   background-color: white;
   color: black;
   font-style: italic;
+  font-size: 12px;
   padding: 2px;
   text-align: center;
 }
