@@ -430,7 +430,7 @@ footer p{
 .figures {
   padding: 10px;
   display: block;
-  margin-left: auto;
+  margin-left: 200px;
   margin-right: auto;
   border: none;
 }
